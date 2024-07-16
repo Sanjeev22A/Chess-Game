@@ -1,0 +1,73 @@
+#gameboard{
+    width:400px;
+    height:400px;
+    background-color:black;
+    display:flex;
+    flex-wrap: wrap;
+    position:realtive;
+}
+#black_pieces_collection{
+    width:400px;
+    height:100px;
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+#white_pieces_collection{
+    width:400px;
+    height:100px;
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.block{
+    width:48px;
+    height:50px;
+    border:solid 1px;
+    background-color:green;
+}
+.square{
+    height:50px;
+    width:50px;
+    position:relative;
+}
+.white{
+    background-color:rgb(197, 194, 194);
+
+}
+.brown{
+    background-color:brown;
+}
+
+.square svg{
+    height:30px;
+    width:30px;
+    margin:7px;
+    position:relative;
+    z-index:-1;
+
+}
+.path{
+    position:relative;
+    z-index:-2;
+}
+.pieces{
+    position:relative;
+    z-index:1;
+}
+.piece_black{
+    fill:black;
+    height:30px;
+    width:30px;
+}
+
+.piece_white{
+    fill:white;
+    height:30px;
+    width:30px;
+
+}
